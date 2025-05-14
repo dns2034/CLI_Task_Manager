@@ -26,8 +26,8 @@ You can use the task manager by running the script from the command line. The fo
 ### Add, Delete, and List a Task
 
 - To add a new task, use the `add` command followed by the task title. You can also specify the priority (default is medium).
-- To delete a task, use the delete command followed by the task ID.
-- To list all tasks, use the list command.
+- To delete a task, use the `delete` command followed by the task ID.
+- To list all tasks, use the `list` command.
 
 ```bash
 python task_manager.py add "Your Task Title" --priority high
